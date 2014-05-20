@@ -8,4 +8,7 @@ install.packages('igraph')
 library(igraph)
 
 # load the help file
-?igraph
+help('igraph')
+
+# load the demo
+demo(package='igraph')
